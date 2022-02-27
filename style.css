@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.img{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  background: #202020;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+#stopwatch {
+  font-size: 100px;
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+#buttons {
+  position: absolute;
+  top: 650px;
+  left: 48.2%;
+  transform: translate(-51.6%, -45%);
+}
+#buttons li {
+  display: inline;
+  padding-left: 10px;
+}
